@@ -1,0 +1,14 @@
+//declare variable and assign value into variable
+const name="mala"
+console.log("name is :"+name);
+//gives error if we try to reassign value into const variable
+
+// const city
+// city="bengaluru" // missing init in const declaration
+// console.log("city is :"+city);
+//difference between var and const keyword are
+//  1. const does not allow redeclaration in the same scope
+//2. const is block scoped and var is function scoped
+//3. const is not hoisted but var is hoisted
+
+

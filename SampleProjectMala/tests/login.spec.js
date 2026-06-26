@@ -7,7 +7,6 @@ const url=await page.url()
 console.log("Application url is:"+url);
 const title=await page.title()
 console.log("Application title"+title)
-
 await expect(page).toHaveURL("https://sgtestinginstituteapp.onrender.com/login")
 await expect(page).toHaveTitle("S G Software Testing Institute")
 })
